@@ -17,15 +17,10 @@ export default function LandingHero({ onStart }) {
           Land your next job with an{" "}
           <span className="gradient-word">AI-crafted</span> resume
         </h1>
-        <p className="landing-sub">
-          Generate a professionally written, ATS-optimized resume and cover
-          letter in under 2 minutes. No templates to wrestle with.
-        </p>
         <div className="landing-cta">
           <button className="btn-primary" onClick={onStart}>
             Build My Resume →
           </button>
-          <button className="btn-secondary">See Example ↗</button>
         </div>
         <div className="features-grid">
           {features.map((f) => (
