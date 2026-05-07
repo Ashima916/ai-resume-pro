@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+node_modules/
+.env.local
+.env.development
+.env.production
+
+# Build outputs
+dist/
+build/
+*.pdf
+*.docx
+
+# OS files
+.DS_Store
+Thumbs.db
